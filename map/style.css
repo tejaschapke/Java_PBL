@@ -1,0 +1,18 @@
+body{
+    background-image:url("m.jpg");
+}
+
+.map{
+    margin-top: 20px;
+   
+   border-radius: 10px;
+   border-color: rgba(255, 176, 144, 0.925);
+}
+
+h1{
+    text-align: center;
+    color: rgb(255, 255, 255);
+    font-size: 50px;
+    font-weight: 500;
+    margin-bottom: 5px;
+}

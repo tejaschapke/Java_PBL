@@ -1,0 +1,198 @@
+*{
+padding: 0;
+margin: 0;
+
+}
+
+body{
+    background-size: cover;
+    background-position: center;
+    background-image: url(Hill.jpg);
+    
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.menubar
+{
+background: #3c3c3c;
+text-align: center;
+}
+
+.menubar .active{
+  margin-right: 30px;
+}
+
+.menubar ul
+{
+display: inline-flex;
+list-style: none;
+color: #fff;
+}
+.menubar ul li
+{
+width: 120px;
+margin: 15px;
+padding: 15px;
+}
+.menubar ul li a
+{
+text-decoration: none;
+color: #fff;
+}
+.active, .menubar ul li:hover
+{
+background: #787878;
+border-radius: 3px;
+}
+.menubar .fa
+{
+margin-right: 10px;
+}
+.submenu-1
+{
+display:none;
+}
+
+.menubar ul li:hover .submenu-1
+{
+display: block;
+position: absolute;
+background: #3c3c3c;
+margin-top: 15px;
+margin-left: -15px;
+}
+.menubar ul li:hover .submenu-1 ul
+{
+display: block;
+margin: 10px;
+}
+.menubar ul li:hover .submenu-1 ul li
+{
+width: 150px;
+padding: 10px;
+border-bottom: 1px dotted #fff;
+background: transparent;
+border-radius: 0;
+text-align: left;
+}
+.menubar ul li:hover .submenu-1 ul li:last-child
+{
+border-bottom: none;
+}
+.menubar ul li:hover .submenu-1 ul li a:hover
+{
+color: #787878;
+}
+
+
+
+  body {
+    font-family: 'montserrat', sans-serif;
+    background-image: url('Hill.jpg');
+    background-size: cover;
+    background-position: top center;
+    position: relative ;
+
+  }
+
+  .app-wrap {
+    display: flex;
+    flex-direction: column;
+    float: left;
+    margin-right: 30px;
+
+
+
+  }
+
+
+
+  header input {
+    margin-top: 15px;
+    
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    max-width: 200px;
+    padding: 10px 15px;
+    border: none;
+    outline: none;
+    background-color: rgba(255, 255, 255, 0.3);
+    border-radius: 16px 0px 16px 0px;
+    border-bottom: 3px solid #DF8E00;
+
+    color: #313131;
+    font-size: 20px;
+    font-weight: 300;
+    transition: 0.2s ease-out;
+  }
+
+  header input:focus {
+    background-color: rgba(255, 255, 255, 0.6);
+  }
+
+  main {
+    flex: 1 1 100%;
+    padding: 25px 25px 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    text-align: left;
+  }
+
+  .location .city {
+    color: black;
+    font-size: 40px;
+    font-weight: 500;
+    margin-bottom: 5px;
+  }
+
+  .location .date {
+    color: black;
+    font-size: 16px;
+  }
+
+  .current .temp {
+    color: black;
+    font-size: 102px;
+    font-weight: 900;
+    margin: 30px 0px;
+
+  }
+
+  .current .temp span {
+    font-weight: 500;
+  }
+
+  .current .weather {
+    color: black;
+    font-size: 32px;
+    font-weight: 700;
+    font-style: italic;
+    margin-bottom: 15px;
+
+  }
+
+  .current .hi-low {
+    color: black;
+    font-size: 24px;
+    font-weight: 500;
+
+  }
+  .fixedwid{
+    margin-left: 100px;
+  }
+
+  .elfsight-app-f9fd24c1-0793-46c1-8ec7-d729dd6abc3b{
+    margin-top: 40px;
+    margin-left: 900px;
+  }
+
+
+  .worldweather{
+    margin-left: 100px;
+  
+    margin-top: 30px;
+    
+
+  }
