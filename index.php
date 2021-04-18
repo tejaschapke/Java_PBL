@@ -63,7 +63,7 @@ use PHPMailer\PHPMailer\PHPMailer;
                             $mail->Host = "smtp.gmail.com"; // Enter your host here
                             $mail->SMTPAuth = true;
                             $mail->Username = "weatherwebsitelogin@gmail.com"; // Enter your email here
-                            $mail->Password = "qwertyuiop@123"; //Enter your passwrod here
+                            $mail->Password = ""; //Enter your passwrod here
                             $mail->Port = 587;
                             $mail->IsHTML(true);
                             $mail->From = "weatherwebsitelogin@gmail.com";
